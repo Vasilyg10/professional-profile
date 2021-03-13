@@ -4,7 +4,7 @@ This is a professional profile with links to the works done by Vasily Giannakopo
 
 ## Screenshot
 
-![ScreenShot](/image/screenshot.PNG)
+![ScreenShot](/image/screenshot.png)
 
 ## Link to Website
 
