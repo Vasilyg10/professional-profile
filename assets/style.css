@@ -1,7 +1,14 @@
+:root {
+	--primary-color: #DDF45B;
+	--secondary-color: #0E402D;
+	--tertiary-color: #82AC9F;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -9,7 +16,7 @@ header {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background: #37433C;
+	background: var(--secondary-color);
 	padding: 5px 0 7px 0;
 }
 
@@ -18,11 +25,11 @@ header nav {
 }
 
 header h1 {
-	background: #698F3F;
+	background: var(--primary-color);
 	border-radius: 15px 15px;
 	text-align: center;
 	font-size: 36px;
-	color: #37433C;
+	color: var(--secondary-color);
 	padding: 0 7px 5px 35px;
 	max-width: 100%;
 }
@@ -39,7 +46,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: #698F3F;
+	color: var(--secondary-color);
+	background: var(--primary-color);
 	border-radius: 15px 15px;
 	padding: 2px 5px;
 	border-bottom: solid 3px;
@@ -48,8 +56,12 @@ header nav ul li a {
 	text-decoration: none;
 }
 
+header nav ul li a:hover{
+	opacity: 70%;
+}
+
 .hero {
-	background-image: url("../image/background-image.jpg");
+	background-image: url("../image/olives.jpg");
 	padding: 90px 20px 0 90px;
 	background-size: cover;
 	background-position: 80%;
@@ -60,8 +72,8 @@ header nav ul li a {
 }
 
 .hero h2 {
-	color: #37433C;
-	background: #698F3F;
+	color: var(--secondary-color);
+	background: var(--primary-color);
 	border-radius: 15px 15px;
 	padding: 2px 5px;
 	font-size: 24px;
@@ -69,7 +81,7 @@ header nav ul li a {
 }
 
 .titles {
-	background: #ccd1c8;
+	background: var(--tertiary-color);
 	padding-top: 25px;
 }
 
@@ -80,10 +92,10 @@ header nav ul li a {
 }
 
 .title h2 {
-	color: #37433C;
+	color: var(--secondary-color);
 	padding-right: 10px;
 	font-size: 36px;
-	border-right: solid 2px;
+	border-right: solid 3px;
 	align-content: flex-start;
 	text-align: right;
 	flex: 1;
@@ -94,16 +106,17 @@ header nav ul li a {
 	flex-wrap: wrap;
 	flex: 5;
 	margin: 25px 25px;
-	color: #37433C;
+	color: var(--secondary-color);
 }
 
 .title-info a {
 	text-decoration: none;
-	color: #37433C;
+	color: var(--secondary-color);
 }
 
 .title-info a:hover {
 	opacity: 70%;
+	transform: scale(1.02);
 }
 
 .title-jobs-one {
@@ -115,13 +128,13 @@ header nav ul li a {
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 15px;
-	border: solid 4px #698F3F;
+	border: solid 4px var(--primary-color);
 	border-radius: 15px 15px;
 	margin-bottom: 10px;
 }
 
 .title-jobs-one h3 {
-	background: #698F3F;
+	background: var(--primary-color);
 	height: 35px;
 	align-content: flex-end;
 	border-radius: 15px 15px;
@@ -137,14 +150,14 @@ header nav ul li a {
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 15px;
-	border: solid 4px #698F3F;
+	border: solid 4px var(--primary-color);
 	border-radius: 15px 15px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
 
 .title-jobs-two h3 {
-	background: #698F3F;
+	background: var(--primary-color);
 	height: 35px;
 	align-content: flex-end;
 	border-radius: 15px 15px;
@@ -160,14 +173,14 @@ header nav ul li a {
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 15px;
-	border: solid 4px #698F3F;
+	border: solid 4px var(--primary-color);
 	border-radius: 15px 15px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
 
 .title-jobs-three h3 {
-	background: #698F3F;
+	background: var(--primary-color);
 	height: 35px;
 	align-content: flex-end;
 	border-radius: 15px 15px;
@@ -183,14 +196,14 @@ header nav ul li a {
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 15px;
-	border: solid 4px #698F3F;
+	border: solid 4px var(--primary-color);
 	border-radius: 15px 15px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
 
 .title-jobs-four h3 {
-	background: #698F3F;
+	background: var(--primary-color);
 	height: 35px;
 	align-content: flex-end;
 	border-radius: 15px 15px;
@@ -206,14 +219,14 @@ header nav ul li a {
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 15px;
-	border: solid 4px #698F3F;
+	border: solid 4px var(--primary-color);
 	border-radius: 15px 15px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 }
 
 .title-jobs-five h3 {
-	background: #698F3F;
+	background: var(--primary-color);
 	height: 35px;
 	align-content: flex-end;
 	border-radius: 15px 15px;
@@ -241,7 +254,7 @@ header nav ul li a {
 }
 
 .title-text p {
-	color: #37433C;
+	color: var(--secondary-color);
 	font-size: 18px;
 	line-height: 1.25;
 	display: flex;
@@ -301,13 +314,13 @@ header nav ul li a {
 		display: flex;
 		align-items: flex-end;
 		padding-bottom: 15px;
-		border: solid 4px #698F3F;
+		border: solid 4px var(--primary-color);
 		border-radius: 15px 15px;
 		margin-bottom: 10px;
 	}
 	
 	.title-jobs-one h3 {
-		background: #698F3F;
+		background: var(--primary-color);
 		height: 25px;
 		align-content: flex-end;
 	}
@@ -321,14 +334,14 @@ header nav ul li a {
 		display: flex;
 		align-items: flex-end;
 		padding-bottom: 15px;
-		border: solid 4px #698F3F;
+		border: solid 4px var(--primary-color);
 		border-radius: 15px 15px;
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
 	
 	.title-jobs-two h3 {
-		background: #698F3F;
+		background: var(--primary-color);
 		height: 25px;
 		align-content: flex-end;
 	}
@@ -342,14 +355,14 @@ header nav ul li a {
 		display: flex;
 		align-items: flex-end;
 		padding-bottom: 15px;
-		border: solid 4px #698F3F;
+		border: solid 4px var(--primary-color);
 		border-radius: 15px 15px;
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
 	
 	.title-jobs-three h3 {
-		background: #698F3F;
+		background: var(--primary-color);
 		height: 25px;
 		align-content: flex-end;
 	}
@@ -363,14 +376,14 @@ header nav ul li a {
 		display: flex;
 		align-items: flex-end;
 		padding-bottom: 15px;
-		border: solid 4px #698F3F;
+		border: solid 4px var(--primary-color);
 		border-radius: 15px 15px;
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
 	
 	.title-jobs-four h3 {
-		background: #698F3F;
+		background: var(--primary-color);
 		height: 25px;
 		align-content: flex-end;
 	}
@@ -384,20 +397,20 @@ header nav ul li a {
 		display: flex;
 		align-items: flex-end;
 		padding-bottom: 15px;
-		border: solid 4px #698F3F;
+		border: solid 4px var(--primary-color);
 		border-radius: 15px 15px;
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
 	
 	.title-jobs-five h3 {
-		background: #698F3F;
+		background: var(--primary-color);
 		height: 25px;
 		align-content: flex-end;
 	}
 
 	.title h2 {
-		flex: 1;
+		flex: .65;
 	}
 
 	.title-info {
