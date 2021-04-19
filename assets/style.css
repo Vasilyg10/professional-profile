@@ -1,15 +1,16 @@
 /* ALL STYLING */
 :root {
-	--primary-color: #DDF45B;
+	--primary-color: #ddf45b;
 	--secondary-color: #022737;
-	--tertiary-color: #98A66F;
+	--tertiary-color: #98a66f;
 }
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 
 /* Styling for Header and Nav */
@@ -58,7 +59,7 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
 	opacity: 70%;
 }
 
@@ -169,7 +170,7 @@ header nav ul li a:hover{
 }
 
 .title-jobs-three {
-	background-image: url(../image/coming-soon.jpg);
+	background-image: url(../image/kicks-pro.PNG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 200px;
@@ -322,13 +323,13 @@ header nav ul li a:hover{
 		border-radius: 15px 15px;
 		margin-bottom: 10px;
 	}
-	
+
 	.title-jobs-one h3 {
 		background: var(--primary-color);
 		height: 55px;
 		align-content: flex-end;
 	}
-	
+
 	.title-jobs-two {
 		background-image: url(../image/horiseon.PNG);
 		background-size: cover;
@@ -343,15 +344,15 @@ header nav ul li a:hover{
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
-	
+
 	.title-jobs-two h3 {
 		background: var(--primary-color);
 		height: 55px;
 		align-content: flex-end;
 	}
-	
+
 	.title-jobs-three {
-		background-image: url(../image/coming-soon.jpg);
+		background-image: url(../image/kicks-pro.PNG);
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 200px;
@@ -364,13 +365,13 @@ header nav ul li a:hover{
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
-	
+
 	.title-jobs-three h3 {
 		background: var(--primary-color);
 		height: 55px;
 		align-content: flex-end;
 	}
-	
+
 	.title-jobs-four {
 		background-image: url(../image/coming-soon.jpg);
 		background-size: cover;
@@ -385,13 +386,13 @@ header nav ul li a:hover{
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
-	
+
 	.title-jobs-four h3 {
 		background: var(--primary-color);
 		height: 55px;
 		align-content: flex-end;
 	}
-	
+
 	.title-jobs-five {
 		background-image: url(../image/coming-soon.jpg);
 		background-size: cover;
@@ -406,7 +407,7 @@ header nav ul li a:hover{
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
-	
+
 	.title-jobs-five h3 {
 		background: var(--primary-color);
 		height: 55px;
@@ -414,7 +415,7 @@ header nav ul li a:hover{
 	}
 
 	.title h2 {
-		flex: .65;
+		flex: 0.65;
 	}
 
 	.title-info {
